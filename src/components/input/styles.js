@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
       input: {
         width: '80%',
         borderBottomWidth: 1,
-        borderBottomColor: '#BFACC8',
+        borderBottomColor: '#750D37',
         marginRight: 10,
         alignItems: 'center',
         justifyContent: 'space-between',

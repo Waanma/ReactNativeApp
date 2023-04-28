@@ -49,7 +49,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Input 
-        buttonColor='#52528C'
+        buttonColor='#750D37'
         buttonTitle='Add'
         onChangeText={(text) => setText(text)}
         onHandlerButton={onAddEvent}
@@ -66,20 +66,20 @@ export default function App() {
       </View>
       <Modal visible={modalVisible} animationType='slide'>
         <View style={styles.modalContainer}>
-          <Text style={styles.modalTitle}>Event Detail</Text>
+          <Text style={styles.modalTitle}>Detalles:</Text>
           <View style={styles.modalDetailContainer}>
-            <Text style={styles.modalDetailMessage}>Are you sure to delete this item?</Text>
+            <Text style={styles.modalDetailMessage}>Quiere borrar este item?</Text>
             <Text style={styles.selectedEvent}>{selectedEvent?.value}</Text>
           </View>
           <View style={styles.buttonContainer}>
             <Button 
-              title='Cancel'
-              color='#12452'
+              title='No'
+              color='black'
               onPress={() => onHandlerCancelModal()}
             />
             <Button 
-            title='Delete'
-            color='#22452'
+            title='Si'
+            color='black'
             onPress={() => onHandlerDeleteEvent(selectedEvent.id)}
             />
           </View>

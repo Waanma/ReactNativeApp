@@ -8,9 +8,10 @@ export const styles = StyleSheet.create({
         },
         
         itemContainer: {
+          margin: 10,
           height: 80,
           justifyContent: 'center',
-          backgroundColor: '#009FFD',
+          backgroundColor: 'gray',
           borderRadius: 5,
           marginVertical: 5,
         },
@@ -29,6 +30,7 @@ export const styles = StyleSheet.create({
           fontSize: 16,
           fontWeight: 'bold',
           marginBottom: 10,
+          color: '#750D37',
         },
         modalDetailContainer: {
           paddingVertical: 20,
